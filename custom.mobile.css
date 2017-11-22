@@ -1,0 +1,379 @@
+/**** Custom + Global CSS starts here for Mobile only ****/
+
+/**** 05th Oct ****/
+.navbar-toggle {
+	float: none;
+}
+.dropdown.candidate-section .notification-box.col-xs-5.col-sm-5.col-md-7,
+.dropdown.candidate-section .user-settings.col-xs-7.col-sm-7.col-md-5{
+	padding-right: 0;
+}
+.candidate-profile .app-section {
+    padding: 0px;
+	margin-top: 56px;
+}
+#open-icon {
+    position: fixed;
+    margin-top: 15px;
+	z-index: 90000;
+	color: rgb(232, 232, 232);
+}
+.main-header .user-settings .user-logo img {
+    height: 80% !important;
+    margin-top: -2px;
+    width: 80% !important;
+	margin-right: 15px;
+}
+footer{
+	display:none;
+}
+.view-profile-panel .panel-body{
+	padding: 0px;
+}
+
+.video-intro-container .help {
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.view-profile-panel.panel{
+	border: none;
+}
+.view-profile-page .about-me-discription {
+    margin-left: 0;
+}
+.view-profile-page .about-me {
+    margin-left: 0;
+}
+.view-profile-page .video-intro-heading .video-intro-1 {
+	margin-left: 0;
+}
+.view-profile-page .checkbox-inline {
+    padding-left: 0;
+}
+.profile_name {
+    padding: 0;
+}
+.share-profile {
+    font-size: 12px;
+}
+.view-profile-page .option-checkbox{
+	height: 14px;
+	width:14px;
+}
+.view-profile-page .option-checkbox:checked::before {
+    font-size: 9px;
+	line-height: 15px;
+}
+.panel.row.panel-default.edit-profile-panel{
+	margin: 0 auto;
+	width: 100%;
+}
+.edit-my-profile-page .main-wrapper {
+    padding: 0px !important;
+}
+.content-wrapper.edit-my-profile-page .video-intro-heading,
+.content-wrapper.video-intro-container .panel-body {
+    padding: 0;
+}
+.edit-my-profile-page textarea{
+    border: 1px solid #bbb !important;
+    padding: 8px;
+}
+.edit-my-profile-page .option-input{
+	left: -8px;
+}
+.edit-my-profile-page md-checkbox:last-of-type {
+    margin-top: 10px;
+}
+.edit-my-profile-page .panel-footer.heading-box{
+	float: left;
+	width: 100%;
+	margin-top: 12px;
+}
+.edit-my-profile-page .panel-footer .pull-right{
+	width:100%;
+}
+.edit-my-profile-page .panel-footer button{
+	width:95%;
+}
+.edit-my-profile-page .add-url-plus {
+    left: 26px;
+    position: relative;
+}
+.edit-my-profile-page .main-wrapper .layout-row .col-md-6.col-sm-7.col-xs-12{
+	overflow: hidden;
+}
+.edit-my-profile-page .main-wrapper .layout-row .col-md-6.col-sm-7.col-xs-12 .col-md-12.col-sm-12.col-xs-12 .col-md-5.col-sm-5{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 22px;
+}
+.edit-my-profile-page .main-wrapper .layout-row .col-md-6.col-sm-7.col-xs-12 .col-md-12.col-sm-12.col-xs-12 .col-md-3.col-sm-3{
+    text-align: right;
+    position: relative;
+    bottom: 22px;
+    left: 10px;
+}
+.edit-my-profile-page md-input-container.md-block {
+    padding: 0;
+}
+.edit-my-profile-page .layout-row .col-md-6.col-sm-6.col-xs-12 .col-md-7.col-sm-7.col-xs-12{
+	padding: 0;
+}
+.content-wrapper.candidate-view .candidate-view-steps.step {
+	height: auto;
+	padding-bottom: 0;
+}
+/* .candidate-view-steps.step .step-body > div.container{
+	height: 400px;
+    overflow-y: scroll;
+} */
+.content-wrapper.candidate-view ul.step-tab {
+    margin: 20px auto 0 auto;
+}
+.content-wrapper.candidate-view .candidate-view-steps .step-body {
+	/* padding: 83px 0px 35px 0; */
+	padding: 33px 0px 35px 0;
+	height: 100%;
+    overflow-y: scroll;
+}
+.content-wrapper.candidate-view .candidate-view-steps .step-body > div.container{
+    height: 100%;
+    background-color: #fff;
+}
+.content-wrapper.candidate-view .candidate-view-steps .step-body .whte-bg .user-all-details {
+    padding: 30px 2px !important;
+}
+.content-wrapper.candidate-view .btn-left1 button {
+	width: 100%;
+	margin: 0 auto !important;
+}
+.content-wrapper.candidate-view .candidate-view-steps.step .panel .panel-heading {
+	padding: 2px 15px;
+}
+.canidates-container section.app-content{
+	min-height: auto;
+}
+.ondemand-test-question{
+	background-image: none;
+	padding-bottom: 0;
+	padding:0;
+}
+.question-container .save-and-next-btn {
+    /* float: right; */
+    width: 100%;
+}
+.ondemand-container, .ondemand-section, .ondemand-div{
+	height: 100%;
+}
+
+.applied-joblist-container .applied-joblist-tab{
+	padding: 12px 18px 0px !important;
+}
+
+.ondemand-container .ondemand-div{
+	padding: 0 10px;
+	overflow-y: scroll;
+}
+.content-wrapper.candidate-view .candidate-view-steps .step-body .whte-bg{
+	padding: 0 1em 1em;
+}
+
+.content-wrapper.mail-box-container{
+	padding: 0 !important;
+	margin-top:0;
+}
+
+.mail-box-container .my-mail-box .mail-box-table .inbox-section{
+	padding: 1px 10px;
+}
+
+.my-mail-box{
+	text-align: center;
+}
+
+.inbox-mail-list{
+	padding: 0;
+    margin-top: 10px;
+}
+/* .content-wrapper.candidate-view .candidate-view-steps .step-body .whte-bg.ondemand-test-question {
+	//padding: 0;
+	
+} */
+.step-tab{
+	display: none;
+}
+
+.content-wrapper.candidate-view .candidate-view-steps.step {
+    background: none; 
+    
+  }
+
+/* .content-wrapper.candidate-view .candidate-view-steps .step-body .whte-bg {
+    padding: 20px;
+} */
+.content-wrapper.candidate-view .candidate-view-steps .step-body .whte-bg .btn-interview{
+    width: 100%;
+}
+
+.canidates-container .candidate-view .candidate-view-steps .btn-interview{
+	width: 100%;
+    margin: 0 auto;
+}
+
+.canidates-container .candidate-view .candidate-view-steps .step-body > div.col-md-12 {
+    float: left;
+    height: 100%;
+    background: #fff;
+	padding-top: 1em;
+}
+
+.full-height .canidates-container{
+	height: 100%
+}
+/* 
+.content-wrapper.candidate-view .candidate-view-steps .step-body .whte-bg div > .btn-sec{
+	margin-top: 50%;
+} */
+
+.content-wrapper.candidate-view.welcome-interview .candidate-view-steps .step-body .btn-left2{
+	margin-top:10%;
+}
+
+.content-wrapper.candidate-view.welcome-interview .candidate-view-steps .step-body .btn-left2 > button {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2px;
+}
+.content-wrapper.candidate-view.welcome-interview .candidate-view-steps .step-body  .col-lg-5.col-md-5.col-sm-5.col-xs-12.col-md-offset-1 > h3{
+    background: #fff;
+    padding: 6px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.first-quesn-container{
+	height: 100%;
+}
+.container-fluid.ondemand-test-question{
+	margin: 0px auto;
+    padding: 0px;
+}
+
+.video-response-question .pull-right,
+.video-response-question .pull-right > button{
+    width: 97%;
+}
+.video-response-question .question-text.video-container,
+.video-response-question .question-text.video-container > video {
+	width: 100%;
+}
+.preview-retry-submit-btns button{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.preview-retry-submit-btns button.btn.btn-success{
+	margin-left:0 !important;
+}
+
+.video-response-question .question-text.video-container {
+    padding: 10px;
+    margin-left: 0 !important;
+}
+
+.mobile-video .pull-right button{
+	margin-top: 0px;
+}
+.question-container .question {
+    min-height: 250px;
+}
+
+.video-response-question .question-text.video-container, .audio-response-question .question-text.video-container{
+	height: 250px;
+}
+
+.preparation-response-time p{
+	padding: 0em 0.5em;
+}
+
+.audio-response-question .question-text.video-container{
+	height: 250px;
+    margin-top: 2% !important;
+	 cursor: move;
+	 margin-left:0;
+	 width:100%
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 568px) and (min-device-width: 320px) and (orientation: portrait)
+{
+	.audio-response-question #questionFileVideo
+	 {
+     width: 100% !important;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 568px) and (min-device-width: 320px) and (orientation: portrait){
+	.video-response-question .custom-video-player{
+		width: 100%!important;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 568px) and (min-device-width: 320px) and (orientation: portrait)
+{
+	.video-response-question .custom-video-player {
+		height: 240px !important;
+	   }   /* width: 263px !important; */
+}
+
+/* MEDIA QUERIES STARTS HERE */
+
+@media screen and (max-width: 766px){
+	.MySideBarNav {
+		padding-top: 95px;
+		width: 0px;
+	}
+}
+
+@media only screen and (max-width: 500px){	
+	.content-wrapper {
+		padding: 15px 30px 85px !important;
+	}
+	.edit-my-profile-page.content-wrapper {
+		padding: 15px 10px 85px !important;
+	}
+	.edit-my-profile-page md-input-container.md-input-has-value label:not(.md-no-float) {
+		margin-bottom: 2px;
+		font-size: 16px;
+	}
+	.content-wrapper.interview-request-container{
+		padding: 15px 10px 85px !important;
+	}
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 568px) and (min-device-width: 320px){
+.ondemand-section {
+     padding-left: 0px ; 
+     padding-right: 0px;
+}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 568px) and (min-device-width: 320px) and (orientation: portrait){
+	.content-wrapper.candidate-view .candidate-view-steps.step {
+		position: fixed;
+		margin-left: -21px;
+		top: 0;
+		bottom: 0;
+		overflow-y: scroll;
+	}
+}
+
+@media only screen and (max-width: 780px){
+	.video-intro-container .video-intro-panel {
+    margin-top: 0px;
+}
+}
+
+
